@@ -3,144 +3,181 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Social Media Content Strategies</title>
+  <title>Social Media Growth Strategies</title>
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
     body {
-      font-family: 'Poppins', sans-serif;
-      line-height: 1.8;
-      background-color: #1E1E2F;
-      color: #E0E0E0;
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(120deg, #ff9a9e, #fad0c4);
+      color: #333;
       margin: 0;
       padding: 0;
-    }
-    header {
-      background: linear-gradient(90deg, #4A00E0, #8E2DE2);
-      color: white;
-      padding: 30px;
       text-align: center;
-      font-size: 28px;
-      font-weight: bold;
     }
-    .content-section {
-      background: #2C2C3E;
-      margin: 20px auto;
-      padding: 30px;
-      border-radius: 10px;
-      max-width: 900px;
-      /* Removed box-shadow to eliminate black lines */
+
+    header {
+      background: #ff3e6c;
+      color: white;
+      padding: 25px;
+      font-size: 32px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     }
-    .section-header {
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+
+    .card {
+      background: white;
+      width: 280px;
+      margin: 20px;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .platform-header {
       display: flex;
       align-items: center;
-      margin-bottom: 20px;
+      justify-content: center;
+      gap: 10px;
+      font-size: 20px;
+      font-weight: 600;
+      color: #ff3e6c;
     }
+
     .platform-icon {
       width: 35px;
       height: 35px;
-      margin-right: 15px;
     }
-    .platform-header {
-      font-size: 24px;
-      font-weight: bold;
-      color: #FFD700;
-      margin: 0;
-    }
+
     .age-group {
+      font-size: 14px;
+      color: #777;
+      margin-bottom: 10px;
       font-style: italic;
-      color: #BBBBBB;
-      font-size: 16px;
     }
+
     ul {
       list-style: none;
       padding: 0;
+      text-align: left;
     }
+
     ul li {
-      background: url('https://img.icons8.com/ios/452/checkmark.png') no-repeat left center;
-      padding-left: 40px;
-      margin-bottom: 12px;
-      font-size: 18px;
+      font-size: 16px;
+      padding: 8px 0;
+      display: flex;
+      align-items: center;
+      gap: 10px;
     }
+
+    .checkmark {
+      width: 18px;
+      height: 18px;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
   </style>
 </head>
 <body>
 
   <header>
-    Social Media Content Strategies to Engage and Convert
+    🔥 Social Media Growth Strategies 🚀
   </header>
 
-  <div class="content-section">
-    <div class="section-header">
-      <img class="platform-icon" src="https://img.icons8.com/ios/452/facebook-new.png" alt="Facebook icon">
-      <h2 class="platform-header">Facebook</h2>
-    </div>
-    <p class="age-group">Target Age Group: 25-54</p>
-    <ul>
-      <li>Share compelling customer success stories to build trust.</li>
-      <li>Use Facebook Live for Q&A sessions and product launches.</li>
-      <li>Leverage Facebook Groups for community-driven engagement.</li>
-      <li>Post carousel ads to highlight key product features.</li>
-      <li>Run engagement-driven contests and giveaways.</li>
-    </ul>
-  </div>
+  <div class="container">
 
-  <div class="content-section">
-    <div class="section-header">
-      <img class="platform-icon" src="https://img.icons8.com/ios/452/instagram-new.png" alt="Instagram icon">
-      <h2 class="platform-header">Instagram</h2>
+    <div class="card">
+      <div class="platform-header">
+        <img class="platform-icon" src="https://img.icons8.com/ios/452/facebook-new.png" alt="Facebook icon">
+        Facebook
+      </div>
+      <p class="age-group">Target Age Group: 25-54</p>
+      <ul>
+        <li><img class="checkmark" src="https://img.icons8.com/color/48/checked.png"> Success stories for credibility</li>
+        <li><img class="checkmark" src="https://img.icons8.com/color/48/checked.png"> Facebook Live for engagement</li>
+        <li><img class="checkmark" src="https://img.icons8.com/color/48/checked.png"> Community-driven groups</li>
+        <li><img class="checkmark" src="https://img.icons8.com/color/48/checked.png"> Carousel ads for visibility</li>
+      </ul>
     </div>
-    <p class="age-group">Target Age Group: 18-34</p>
-    <ul>
-      <li>Post high-quality Reels with trends, insights, and storytelling.</li>
-      <li>Use IG Stories daily for polls, questions, and sneak peeks.</li>
-      <li>Leverage influencer collaborations for greater brand exposure.</li>
-      <li>Share user-generated content to build credibility.</li>
-      <li>Optimize Instagram Shopping to drive direct conversions.</li>
-    </ul>
-  </div>
 
-  <div class="content-section">
-    <div class="section-header">
-      <img class="platform-icon" src="https://img.icons8.com/ios/452/twitter.png" alt="Twitter icon">
-      <h2 class="platform-header">X (Twitter)</h2>
+    <div class="card">
+      <div class="platform-header">
+        <img class="platform-icon" src="https://img.icons8.com/ios/452/instagram-new.png" alt="Instagram icon">
+        Instagram
+      </div>
+      <p class="age-group">Target Age Group: 18-34</p>
+      <ul>
+        <li><img class="checkmark" src="https://img.icons8.com/color/48/checked.png"> High-quality reels & stories</li>
+        <li><img class="checkmark" src="https://img.icons8.com/color/48/checked.png"> Polls & Q&As in IG Stories</li>
+        <li><img class="checkmark" src="https://img.icons8.com/color/48/checked.png"> Influencer partnerships</li>
+        <li><img class="checkmark" src="https://img.icons8.com/color/48/checked.png"> User-generated content</li>
+      </ul>
     </div>
-    <p class="age-group">Target Age Group: 18-49</p>
-    <ul>
-      <li>Post real-time industry updates, news, and opinions.</li>
-      <li>Use Twitter threads to tell engaging brand stories.</li>
-      <li>Engage in trending hashtags to increase visibility.</li>
-      <li>Run Twitter polls for audience insights and engagement.</li>
-      <li>Collaborate with industry experts for credibility.</li>
-    </ul>
-  </div>
 
-  <div class="content-section">
-    <div class="section-header">
-      <img class="platform-icon" src="https://img.icons8.com/ios/452/youtube-play.png" alt="YouTube icon">
-      <h2 class="platform-header">YouTube</h2>
+    <div class="card">
+      <div class="platform-header">
+        <img class="platform-icon" src="https://img.icons8.com/ios/452/twitter.png" alt="Twitter icon">
+        X (Twitter)
+      </div>
+      <p class="age-group">Target Age Group: 18-49</p>
+      <ul>
+        <li><img class="checkmark" src="https://img.icons8.com/color/48/checked.png"> Real-time updates & news</li>
+        <li><img class="checkmark" src="https://img.icons8.com/color/48/checked.png"> Twitter threads for insights</li>
+        <li><img class="checkmark" src="https://img.icons8.com/color/48/checked.png"> Engage with trending topics</li>
+        <li><img class="checkmark" src="https://img.icons8.com/color/48/checked.png"> Run polls for engagement</li>
+      </ul>
     </div>
-    <p class="age-group">Target Age Group: 13-50+</p>
-    <ul>
-      <li>Upload long-form educational and tutorial videos.</li>
-      <li>Leverage YouTube Shorts for quick and engaging content.</li>
-      <li>Use storytelling to create emotional connections.</li>
-      <li>Optimize video SEO with strategic keywords and descriptions.</li>
-      <li>Collaborate with other YouTubers for cross-promotion.</li>
-    </ul>
-  </div>
 
-  <div class="content-section">
-    <div class="section-header">
-      <img class="platform-icon" src="https://img.icons8.com/ios/452/tiktok.png" alt="TikTok icon">
-      <h2 class="platform-header">TikTok</h2>
+    <div class="card">
+      <div class="platform-header">
+        <img class="platform-icon" src="https://img.icons8.com/ios/452/youtube-play.png" alt="YouTube icon">
+        YouTube
+      </div>
+      <p class="age-group">Target Age Group: 13-50+</p>
+      <ul>
+        <li><img class="checkmark" src="https://img.icons8.com/color/48/checked.png"> Long-form tutorials</li>
+        <li><img class="checkmark" src="https://img.icons8.com/color/48/checked.png"> Engaging YouTube Shorts</li>
+        <li><img class="checkmark" src="https://img.icons8.com/color/48/checked.png"> SEO-optimized content</li>
+        <li><img class="checkmark" src="https://img.icons8.com/color/48/checked.png"> Collaboration with creators</li>
+      </ul>
     </div>
-    <p class="age-group">Target Age Group: 13-29</p>
-    <ul>
-      <li>Create engaging challenges and trends with branded hashtags.</li>
-      <li>Use storytelling to explain complex ideas in a fun way.</li>
-      <li>Collaborate with influencers for rapid audience growth.</li>
-      <li>Leverage TikTok’s algorithm with frequent and creative posts.</li>
-      <li>Capitalize on viral audio and trends for organic reach.</li>
-    </ul>
+
+    <div class="card">
+      <div class="platform-header">
+        <img class="platform-icon" src="https://img.icons8.com/ios/452/tiktok.png" alt="TikTok icon">
+        TikTok
+      </div>
+      <p class="age-group">Target Age Group: 13-29</p>
+      <ul>
+        <li><img class="checkmark" src="https://img.icons8.com/color/48/checked.png"> Viral challenges & trends</li>
+        <li><img class="checkmark" src="https://img.icons8.com/color/48/checked.png"> Storytelling for engagement</li>
+        <li><img class="checkmark" src="https://img.icons8.com/color/48/checked.png"> Influencer collaborations</li>
+        <li><img class="checkmark" src="https://img.icons8.com/color/48/checked.png"> Capitalizing on trends</li>
+      </ul>
+    </div>
+
   </div>
 
 </body>
